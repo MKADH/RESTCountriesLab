@@ -19,8 +19,9 @@ const getCountries = async() => {
     //         newCountriesArr.push(allCountriesArr[i]);
     //     };
     // };
+
     mapCountries(allCountriesArr);
-}
+};
 getCountries();
 // document.getElementById("button").addEventListener("click", getCountries);
 const mapCountries = (allCountriesArr) => {
