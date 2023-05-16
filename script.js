@@ -35,7 +35,7 @@ const mapCountries = (allCountriesArr) => {
          + "<br>" + "<b>Member of UN:</b> " + country.unMember
          + "<br>" + "<b>Region:</b> " + country.region
          + "<br>" + "<b>Sub-Region:</b> " + country.subregion
-         + "<br>" + "<b>Language(s) Spoken:</b> " + country.languages
+         + "<br>" + "<b>Language(s) Spoken:</b> " + Object.values(country.languages)
          + "<br>" + "<b>Countries Bordered:</b> " + country.borders
          + "<br>" + "<b>Population:</b> " + country.population
          + "<br>" + "<b>Land Area:</b> " + country.area
